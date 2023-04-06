@@ -12,13 +12,19 @@ class calculos:
          print('La multiplicacion de',numero1, '*',numero2, 'es: ', numero1 * numero2)
 
     def division(self, numero1, numero2):
-         print('La division de',numero1, '*',numero2, 'es: ', numero1 / numero2)
+          if numero1 == 0 or numero2 == 0:
+               print('No es posible dividir entre 0')
+          else:      
+               print('La division de',numero1, '*',numero2, 'es: ', numero1 / numero2)
 
     def exponenciacion(self, numero1, numero2):
         print('La base es',numero1, 'elevado a la',numero2, 'es: ', numero1 ** numero2)
 
     def divison_entera(self, numero1, numero2):
-        print('La division entera entre',numero1, 'y',numero2, 'es: ', numero1 // numero2)
+          if numero1 == 0 or numero2 == 0:
+               print('No es posible dividir entre 0')
+          else:      
+               print('La division de',numero1, '*',numero2, 'es: ', numero1 // numero2)
         
     def raiz(self, numero1):
         print('La raiz cuadrada es:', math.sqrt(numero1))

@@ -1,6 +1,3 @@
-#Creador Milton Mejia
-#Calculadora utilizando Python y POO
-
 from Calculos import calculos
 
 print('Bienvenido a la Calculadora\n')
